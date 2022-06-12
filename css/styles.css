@@ -9,15 +9,19 @@ header,
 .body,
 .body-card,
 .links-section,
-.links-container {
+.links-container,
+.second-body,
+.frame {
     display: flex;
 }
 
-.body {
+.body,
+.second-body {
     justify-content: center;
 }
 
-.links-section {
+.links-section,
+.second-body {
     align-items: center;
 }
 
@@ -29,7 +33,7 @@ header,
 header {
     /* background-color: #3f72af; */
     background-color: #1f2937;
-    padding: 10px;
+    padding: 10px 90px;
     justify-content: space-between;
     flex: 0 0 auto;
     align-items: center;
@@ -37,10 +41,6 @@ header {
 
 .header-links {
     gap: 40px;
-}
-
-.header-logo {
-    margin-left: 100px;
 }
 
 a {
@@ -56,7 +56,8 @@ a {
     justify-content: center;
 }
 
-.body-card {
+.body-card,
+.second-body {
     color: #f9faf8;
     padding: 10px;
 }
@@ -75,9 +76,10 @@ a {
 .body-card button {
     background-color: #3882f6;
     color: #f9faf8;
-    width: 100px;
-    height: 30px;
     border: 1px solid #1f2937;
+    font-size: 18px;
+    align-self: flex-start;
+    padding: 10px;
     border-radius: 8px;
 }
 
@@ -127,4 +129,37 @@ a {
     font-size: 18px;
     font-weight: bold;
     text-align: end;
+}
+
+.second-body {
+    padding: 50px 0;
+}
+
+.frame {
+    background-color: #3882f6;
+    padding: 60px;
+    border-radius: 20px;
+    gap: 100px;
+    align-items: center;
+}
+
+.frame h4 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.frame p {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.frame button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-self: flex-start;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
 }
