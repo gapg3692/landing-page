@@ -163,3 +163,11 @@ a {
     border: 1px solid #f9faf8;
     border-radius: 8px;
 }
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 25px;
+}
