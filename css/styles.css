@@ -2,6 +2,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0;
     min-height: 100vh;
+    padding-top: 90px;
+    /* Relleno superior igual a la altura de la cabecera*/
 }
 
 header,
@@ -33,10 +35,16 @@ header,
 header {
     /* background-color: #3f72af; */
     background-color: #1f2937;
-    padding: 10px 90px;
+    padding: 10px;
     justify-content: space-between;
     flex: 0 0 auto;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    gap: 750px;
+    justify-content: center;
 }
 
 .header-links {
